@@ -8,4 +8,9 @@ public class Collision : MonoBehaviour
     {
         Debug.Log("BOOOOM");
     }
+
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        Debug.Log("Entering trigger!!!");
+    }
 }
